@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1a1a1d; /* Dark background */
+  margin: 0;
+  padding: 0;
+  color: #e0e0e0;
+}
+
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background: red;
+  color: #f8f8ff;
+  border-bottom: 5px solid #d4af37;
+}
+
+h1.first {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333; /* Dark color */
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  color: #555; /* Darker color */
+}
+
+.author {
+  font-size: 1rem;
+  color: #777; /* Darker color */
+}
+
+.custom-hr {
+  width: 200px;
+  border: none;
+  height: 2px;
+  background-color: #d4af37;
+  margin: 20px auto;
+}
+
+.candidate-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #282828; /* Slightly lighter dark */
+}
+
+.candidate-table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.candidate-table th,
+.candidate-table td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.candidate-table th {
+  background-color: #4b2c57;
+  color: #fff;
+  font-weight: 700;
+}
+
+.candidate-table td {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.candidate-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.9); /* Light background for the form */
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1c0f4e;
+  color: #d4af37;
+  font-size: 1.1rem;
+}
+
+/* Form Styles */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #4b2c57; /* Dark border */
+  border-radius: 5px;
+}
+
+button {
+  background-color: #d4af37; /* Gold color */
+  color: #1a1a1d; /* Dark text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #b59428; /* Darker gold on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  h1.first {
+      font-size: 2rem;
+  }
+
+  .subtitle {
+      font-size: 1rem;
+  }
+
+  .author {
+      font-size: 0.9rem;
+  }
+
+  .candidate-table {
+      width: 100%;
+  }
+
+  .candidate-table th,
+  .candidate-table td {
+      padding: 10px;
+  }
+
+  .candidate-img {
+      width: 40px;
+      height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+      padding: 30px 10px;
+  }
+
+  h1.first {
+      font-size: 1.5rem;
+  }
+
+  .subtitle {
+      font-size: 0.9rem;
+  }
+
+  .candidate-table {
+      font-size: 0.9rem;
+  }
+
+  .candidate-img {
+      width: 30px;
+      height: 30px;
+  }
+}
