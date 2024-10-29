@@ -327,11 +327,7 @@ contactForm.addEventListener('submit', e => {
   const uid = formData.get('Uid');
   const phone = formData.get('Phone');
 
-  // Check if the user is trying to register with the same details but a different phone number
-  if (uvkRegistry[uid] && uvkRegistry[uid] !== name) {
-    alert('This user is already registered with a different UVK. Please use the original UVK.');
-    return;
-  }
+
 
   
 
